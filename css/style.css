@@ -1,0 +1,43 @@
+#navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(102, 87, 84);
+    padding: 10px 0;
+}
+
+#navBar a {
+    color: white;
+    font-size: 1.5em;
+}
+
+#title {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 15em;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Tangerine', cursive;
+    color: rgb(102, 87, 84);
+}
+
+#title i {
+    font-size: 0.3em;
+    margin-left: 55px;
+}
+
+#intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#intro p {
+    width:700px;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
