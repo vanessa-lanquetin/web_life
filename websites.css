@@ -1,0 +1,50 @@
+#indispensables {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.containerSites {
+    width: 39%;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    padding:10px 0;
+}
+.part {
+    width: 50%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.partImg {
+    width: 100%;
+    height: 100%;
+    max-height: 330px;
+    object-fit: cover;
+    border-radius: 70px;
+}
+
+.partTitle {
+    margin: 10px 0;
+    font-weight: 700;
+    color: #ea7097;
+}
+
+.sites{
+    margin-bottom: 10px;
+}
+
+.sites a{
+    color: grey;
+}
+.siteTitle{
+    margin-bottom: 4px;
+    color: #f19886;
+}
+#design {
+    text-align: right;
+}
